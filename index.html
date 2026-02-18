@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doxyframe | Viewer</title>
+    <style>
+        /* Remove default margins and hide scrollbars on the parent */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #000;
+        }
+
+        /* Make the iframe fill the entire screen */
+        #proxy-frame {
+            border: none;
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://psychic-fortnight-44pg4rqqpx6c5qxg-8080.app.github.dev/" 
+        id="proxy-frame"
+        allow="fullscreen; clipboard-read; clipboard-write"
+        title="Content Viewer">
+    </iframe>
+
+</body>
+</html>
